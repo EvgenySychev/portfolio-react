@@ -1,0 +1,10 @@
+.remoteWork {
+    height: 30vh;
+    background-color: #e9ffaa;
+    border: 1px solid;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+}
