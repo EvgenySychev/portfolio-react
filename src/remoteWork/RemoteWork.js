@@ -6,7 +6,7 @@ export function RemoteWork() {
     return (
         <div className={style.remoteWork}>
             <div className= {`${styleContainer.container} ${style.block}`}>
-                <h3> Рассматриваю варианты удаленной работы</h3>
+                <h3 className={style.title}> Рассматриваю варианты удаленной работы</h3>
                 <button>Нанять меня</button>
             </div>
 
