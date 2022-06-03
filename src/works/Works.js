@@ -12,8 +12,9 @@ export function Works() {
                     My Works
                 </h2>
                 <div className={style.works}>
-                    <Work title={"project's name"} description={"fdgjkhsdfk dfjkghds dfgkjhd"}/>
-                    <Work title={"project's name"} description={"fdgjkhsdfk dfjkghds dfgkjhd"}/>
+                    <Work title={"first project"} description={"fdgjkhsdfk dfjkghds dfgkjhd"}/>
+                    <Work title={"second project"} description={"fdgjkhsdfk dfjkghds dfgkjhd"}/>
+                    <Work title={"third project"} description={"fdgjkhsdfk dfjkghds dfgkjhd"}/>
                 </div>
             </div>
         </div>

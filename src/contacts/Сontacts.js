@@ -8,9 +8,9 @@ export function Contacts() {
             <div className= {`${styleContainer.container} ${style.block}`}>
                 <h3 className={style.title}>Контакты</h3>
                 <form className={style.formBlock}>
-                    <input />
-                    <input />
-                    <textarea></textarea>
+                    <input type={"text"}/>
+                    <input type={"text"}/>
+                    <textarea> </textarea>
                 </form>
                 <button>Отправить</button>
             </div>

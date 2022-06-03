@@ -1,5 +1,5 @@
 .worksBlock {
-    height: 100vh;
+    min-height: 100vh;
     background-color:#b6c1ff;
 }
 
@@ -17,4 +17,5 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }

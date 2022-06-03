@@ -1,8 +1,9 @@
 
 .footer {
-    height: 30vh;
+    height: 35vh;
     background-color: #d3cdb7;
     border: 1px solid;
+    padding-top: 30px;
 }
 
 .block {
@@ -16,7 +17,7 @@
 
 .iconBlock {
     border: 1px solid;
-    width: 300px;
+    width: 280px;
     display: flex;
     justify-content: space-between;
 }
