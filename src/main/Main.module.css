@@ -1,6 +1,6 @@
 .mainBlock {
     height: 100vh;
-    background-color: #ffd4f0;
+    background-color: #373b40;
 }
 
 .container {
@@ -15,7 +15,30 @@
 
 .text {
     width: 300px;
-    background-color: #f7f7f7;
+    background: #373b40;
+}
+
+.text h1 {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.4;
+    font-weight: 800;
+    color: #fff;
+    background: #373b40;
+    font-size: 4.2vw;
+    word-break: break-word;
+}
+.text span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+.text p {
+    font-family: 'Poppins', sans-serif;
+    color: #68e0cf;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 14px;
 }
 
 .photo {
