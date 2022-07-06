@@ -16,6 +16,7 @@
 .text {
     width: 300px;
     background: #373b40;
+    z-index: 80;
 }
 
 .text h1 {
@@ -39,6 +40,31 @@
     text-transform: uppercase;
     display: inline-block;
     font-size: 14px;
+}
+
+.hTitle {
+    margin: 40px 0 0 -15vw;
+    padding: 4.2vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-weight: 800;
+    color: #fff;
+    background: #373b40;
+    word-break: break-word;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    border-radius: 264px;
+    -moz-border-radius: 264px;
+    -webkit-border-radius: 264px;
+    -khtml-border-radius: 264px;
+
+}
+
+.description {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 0 30px;
+    font-size: 14px;
+    color: #fff;
 }
 
 .photo {

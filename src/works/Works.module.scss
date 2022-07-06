@@ -1,6 +1,10 @@
+@import "../common/styles/sass/variables";
+
 .worksBlock {
   min-height: 100vh;
-  background: #373b40;
+  background: $bgColor;
+
+
 
   .worksContainer {
     flex-direction: column;

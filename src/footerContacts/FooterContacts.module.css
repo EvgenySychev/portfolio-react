@@ -1,0 +1,24 @@
+.socials {
+    margin-left: -27px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 54px;
+}
+
+
+
+.socials a {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+    height: 54px;
+    line-height: 54px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background: #373b40;
+    border: 1px solid #585d65;
+    -webkit-border-radius: 54px;
+    -khtml-border-radius: 54px;
+}

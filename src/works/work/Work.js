@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './Work.module.css';
+import style from './Work.module.scss';
 
 export function Work(props) {
     return (
@@ -7,7 +7,7 @@ export function Work(props) {
             <div className={style.image} style={props.style}>
                 <button className={style.viewBtn} onClick={() => console.log('btn')}>Смотреть</button>
             </div>
-            <div>
+            <div className={style.projectInfo}>
                 <h3 className={style.header}> {props.title} </h3>
                 <span className={style.description}> {props.description} </span>
             </div>

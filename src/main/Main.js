@@ -8,13 +8,15 @@ export function Main() {
             <div className={stylesContainer.container}>
                 <div className={style.text}>
                     <span>Hi There</span>
-                    <h1> I am Evgeny Sychev</h1>
-                    <p>Frontend Developer</p>
+                    <h1 className={style.hTitle}> I am Evgeny Sychev</h1>
+                    <div>
+                        <p>Frontend Developer</p>
+                        <div className={style.description}>
+                                Приветствие zcvzxcvzxcvzxcv zcxvzxcvzxcv zxcvzcvzxcvzxcv zxcvzxcvzxcvzx zxcvzxcvzxcv zxcvzxcvzxcv
+                        </div>
+                        <a>Contact me</a>
+                    </div>
                 </div>
-                <div className={style.photo}>
-            </div>
-
-
             </div>
 
         </div>
