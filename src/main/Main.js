@@ -9,12 +9,28 @@ export function Main() {
                 <div className={style.text}>
                     <span>Hi There</span>
                     <h1 className={style.hTitle}> I am Evgeny Sychev</h1>
-                    <div>
+                    <div className={style.startedContent}>
                         <p>Frontend Developer</p>
                         <div className={style.description}>
                                 Приветствие zcvzxcvzxcvzxcv zcxvzxcvzxcv zxcvzcvzxcvzxcv zxcvzxcvzxcvzx zxcvzxcvzxcv zxcvzxcvzxcv
                         </div>
-                        <a>Contact me</a>
+                        <button className={style.btnContact} >
+                            <span className={style.animatedBtn}>
+                                <span>
+                                    <em>C</em>
+                                    <em>o</em>
+                                    <em>n</em>
+                                    <em>t</em>
+                                    <em>a</em>
+                                    <em>c</em>
+                                    <em>t</em>
+                                    <em> </em>
+                                    <em>m</em>
+                                    <em>e</em>
+                                </span>
+                            </span>
+                        </button>
+                        <a >Contact me</a>
                     </div>
                 </div>
             </div>

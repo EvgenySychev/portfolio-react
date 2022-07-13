@@ -6,9 +6,10 @@ import {Works} from "./works/Works";
 import {RemoteWork} from "./remoteWork/RemoteWork";
 import {Contacts} from "./contacts/Сontacts";
 import {Footer} from "./footer/Footer";
-import frontImg from './assets/image/cs_networking.jpg'
+import frontImg from './assets/image/SychFull.jpg'
 import s from './App.module.css'
 import {FooterContacts} from "./footerContacts/FooterContacts";
+import {Story} from "./story/Story";
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
             </div>
             <div className={s.body}>
                 <Main/>
+                <Story/>
                 <Skills/>
                 <Works/>
                 <RemoteWork/>

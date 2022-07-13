@@ -13,18 +13,6 @@
     margin-right: 92px;
 }
 
-@media screen and (max-width: 1280px) {
-    .wrapper {
-        margin-left: 25%;
-    }
-    .wrapper:before {
-
-        left: 25%;
-
-    }
-}
-
-
 .wrapper:before {
     content: '';
     position: fixed;
@@ -36,6 +24,16 @@
     z-index: 13;
 }
 
+@media screen and (max-width: 1280px) {
+    .wrapper {
+        margin-left: 25%;
+    }
+
+}
+
+
+
+
 .rootApp {
     display: flex;
 }
@@ -45,6 +43,12 @@
     left: 0;
     width: 35%;
     height: 100%;
+}
+
+@media screen and (max-width: 1280px) {
+    .frontImg {
+        width: 30%;
+    }
 }
 
 .backgroundImg {
