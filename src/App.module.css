@@ -9,30 +9,20 @@
 .wrapper {
     position: relative;
     margin-top: 50px;
-    margin-left: 35%;
+    margin-left: 45%;
     margin-right: 92px;
 }
 
 .wrapper:before {
     content: '';
     position: fixed;
-    left: 35%;
+    left: 45%;
     right: 92px;
     top: 0;
     height: 40px;
     background: #373b40;
     z-index: 13;
 }
-
-@media screen and (max-width: 1280px) {
-    .wrapper {
-        margin-left: 25%;
-    }
-
-}
-
-
-
 
 .rootApp {
     display: flex;
@@ -41,13 +31,23 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 35%;
+    width: 45%;
     height: 100%;
 }
 
+.circle {
+    clip-path: circle(640px at 10px 430px);
+}
+
 @media screen and (max-width: 1280px) {
+    .wrapper {
+        margin-left: 30%;
+    }
     .frontImg {
         width: 30%;
+    }
+    .circle {
+        clip-path: circle(550px at 10px 430px)
     }
 }
 
@@ -56,7 +56,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    min-height: 100%;
+    height: 100%;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

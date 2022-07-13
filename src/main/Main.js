@@ -30,7 +30,7 @@ export function Main() {
                                 </span>
                             </span>
                         </button>
-                        <a >Contact me</a>
+
                     </div>
                 </div>
             </div>
