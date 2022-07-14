@@ -1,3 +1,24 @@
+
+.footer {
+    padding: 0;
+    position: fixed;
+    bottom: 40px;
+    right: 0;
+    width: 92px;
+    height: 1px;
+    z-index: 99;
+}
+
+.footer:before {
+    content: '';
+    position: absolute;
+    bottom: -50vh;
+    left: 0;
+    width: 1px;
+    height: 200vh;
+    background: #585d65;
+}
+
 .socials {
     margin-left: -27px;
     position: absolute;
@@ -5,8 +26,6 @@
     bottom: 0;
     width: 54px;
 }
-
-
 
 .socials a {
     position: relative;
@@ -21,4 +40,40 @@
     border: 1px solid #585d65;
     -webkit-border-radius: 54px;
     -khtml-border-radius: 54px;
+}
+
+@media screen and (max-width: 992px) {
+    .footer {
+        margin: 0 0 50px;
+        padding: 0;
+        position: relative;
+        bottom: auto;
+        height: auto;
+        width: 100%;
+    }
+
+    .footer:before {
+        top: 50%;
+        bottom: auto;
+        left: 0;
+        width: 100%;
+        height: 1px
+    }
+
+    .footer .socials {
+        margin-left: 0;
+        position: relative;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 0;
+    }
+
+    .footer .socials a {
+        display: inline-block;
+        margin-left: 6px;
+        margin-right: 6px;
+        margin-bottom: 0;
+        width: 54px;
+    }
 }

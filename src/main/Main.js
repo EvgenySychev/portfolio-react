@@ -7,14 +7,15 @@ export function Main() {
         <div className={style.mainBlock}>
             <div className={stylesContainer.container}>
                 <div className={style.text}>
-                    <span>Hi There</span>
-                    <h1 className={style.hTitle}> I am Evgeny Sychev</h1>
+                    {/*<span>Hi There</span>*/}
+                    <h1 className={style.hTitle}> Evgeny Sychev</h1>
                     <div className={style.startedContent}>
                         <p>Frontend Developer</p>
                         <div className={style.description}>
-                                Приветствие zcvzxcvzxcvzxcv zcxvzxcvzxcv zxcvzcvzxcvzxcv zxcvzxcvzxcvzx zxcvzxcvzxcv zxcvzxcvzxcv
+                            Приветствие zcvzxcvzxcvzxcv zcxvzxcvzxcv zxcvzcvzxcvzxcv zxcvzxcvzxcvzx zxcvzxcvzxcv
+                            zxcvzxcvzxcv
                         </div>
-                        <button className={style.btnContact} >
+                        <button className={style.btnContact}>
                             <span className={style.animatedBtn}>
                                 <span>
                                     <em>C</em>
