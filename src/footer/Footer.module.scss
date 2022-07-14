@@ -1,16 +1,19 @@
+@import "../common/styles/sass/variables";
 
 .footer {
-    height: 35vh;
-    background-color: #d3cdb7;
+    height:10vh;
+    background-color: $bgColor;
     border: 1px solid;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
+
 
 .block {
     display: flex;
     flex-direction: column;
 }
-
+/*
 .title {
     background-color: #eeeef5;
 }
@@ -26,4 +29,4 @@
     height: 40px;
     width: 40px;
     background-color: #d4ffc0;
-}
+}*/

@@ -16,7 +16,7 @@
 }*/
 
 .text h1 {
-    width: 600px;
+    width: 75%;
     font-family: 'Poppins', sans-serif;
     line-height: 1.4;
     font-weight: 800;
@@ -36,7 +36,7 @@
 }
 
 .hTitle {
-    margin: 40px 0 0 -18vw;
+    margin: 40px 0 0 -33vh;
     padding: 4.2vw;
     font-size: 4.2vw;
     line-height: 1.4;
@@ -45,6 +45,11 @@
     background: #373b40;
     word-break: break-word;
     border-radius: 264px;
+}
+@media screen and (max-width: 1430px) {
+    .hTitle {
+        margin: 40px 0 0 -20vh;
+    }
 }
 @media screen and  (max-width: 992px) {
 
@@ -68,7 +73,6 @@
     max-width: 100%;
     }
 }
-
 
 .startedContent{
     padding-left: 8%;
@@ -122,7 +126,6 @@
     text-shadow: 0 16px 0 #68e0cf;
 }
 
-
 .animatedBtn span em {
     transition-delay: .025s;
     min-width: 5px;
@@ -145,10 +148,4 @@
     margin: 0 0 30px;
     font-size: 14px;
     color: #fff;
-}
-
-.photo {
-    width: 300px;
-    height: 400px;
-    background-color: #f7f7f7;
 }

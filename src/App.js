@@ -11,6 +11,7 @@ import s from './App.module.css'
 import {FooterContacts} from "./footerContacts/FooterContacts";
 import {Story} from "./story/Story";
 
+
 function App() {
 
     return (
@@ -25,7 +26,7 @@ function App() {
                 </div>
 
             </div>
-            <div className={s.body}>
+            <div >
                 <Main/>
                 <Story/>
                 <Skills/>
@@ -36,7 +37,7 @@ function App() {
             </div>
         </div>
 
-        <footer className={s.footer}>
+        <footer >
             <FooterContacts/>
         </footer>
     </div>
