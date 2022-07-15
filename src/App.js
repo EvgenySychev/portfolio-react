@@ -7,10 +7,11 @@ import {RemoteWork} from "./remoteWork/RemoteWork";
 import {Contacts} from "./contacts/Сontacts";
 import {Footer} from "./footer/Footer";
 import frontImg from './assets/image/SychFull — copy.jpg'
-import s from './App.module.css'
+import s from './App.module.scss'
 import {FooterContacts} from "./footerContacts/FooterContacts";
 import {Story} from "./story/Story";
-
+import {Experience} from "./experience/Experience";
+import {Education} from "./education/Education";
 
 function App() {
 
@@ -31,7 +32,9 @@ function App() {
                 <Story/>
                 <Skills/>
                 <Works/>
-                <RemoteWork/>
+                <Experience/>
+                <Education/>
+                {/*<RemoteWork/>*/}
                 <Contacts/>
                 <Footer/>
             </div>

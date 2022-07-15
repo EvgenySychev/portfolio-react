@@ -2,7 +2,7 @@ import React from 'react'
 import style from './Skills.module.scss';
 import styleContainer from '../common/styles/Container.module.css'
 import {Skill} from "./skill/Skill";
-import {Title} from "../common/Components/Title/Title";
+import {Title} from "../common/Components/title/Title";
 import reactImg from './../assets/image/react.jpg'
 import reduxImg from './../assets/image/redux.png'
 import tsImg from './../assets/image/ts.jpeg'

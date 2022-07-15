@@ -3,30 +3,22 @@
 .skillsBlock {
   min-height: 90vh;
   background-color: $bgColor;
-}
-
-.skillsContainer {
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.title {
-  background-color: #eeeef5;
-}
-
-.skills {
-  list-style: none;
   border: 1px solid;
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-
-}
-
-.skills li {
-  width: 33%;
-
+  .skillsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    .skills {
+      list-style: none;
+      border: 1px solid;
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      li {
+        width: 33%;
+      }
+    }
+  }
 }
 
 

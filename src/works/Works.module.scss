@@ -3,6 +3,7 @@
 .worksBlock {
   min-height: 80vh;
   background: $bgColor;
+  border: 1px solid;
 
   .worksContainer {
     flex-direction: column;

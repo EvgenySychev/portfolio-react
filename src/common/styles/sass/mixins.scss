@@ -1,8 +1,7 @@
 @import "./variables";
 
-@mixin text ($fontFamily, $fontSize, $textAlign, $color) {
+@mixin text ($fontFamily, $fontSize, $color) {
   font-family: $fontFamily;
   font-size: $fontSize;
-  text-align: $textAlign;
   color: $color;
 }

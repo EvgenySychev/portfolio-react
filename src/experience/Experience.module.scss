@@ -1,0 +1,30 @@
+@import "../common/styles/sass/variables";
+@import "../common/styles/sass/mixins";
+
+.experienceBlock{
+  min-height: 50vh;
+  background: $bgColor;
+  border: 1px solid;
+
+  .experienceContainer{
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+
+    .experienceTitle{
+      @include text($fontMain, 14px, $primaryColor);
+      font-weight: 600;
+      text-align: center;
+      background: $bgColor;
+      height: 50px;
+      display: block;
+      line-height: 26px;
+    }
+    .activities {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  }
+}

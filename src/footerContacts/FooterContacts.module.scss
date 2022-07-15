@@ -1,3 +1,5 @@
+@import "../common/styles/sass/variables";
+@import "../common/styles/sass/mixins";
 
 .footer {
     padding: 0;
@@ -40,6 +42,9 @@
     border: 1px solid #585d65;
     -webkit-border-radius: 54px;
     -khtml-border-radius: 54px;
+    &:hover {
+        background: $primaryColor;
+    }
 }
 
 @media screen and (max-width: 992px) {
