@@ -8,10 +8,8 @@ export const Story = () => {
 
         <div className={`${styleContainer.container} ${style.storyContainer}`}>
             <div>
-                <Title title={'About Me'}/>
-                <div className={style.storyTitle}>
-                    <span>MY STORY</span>
-                </div>
+                <Title title={'About Me'}
+                       subTitle={'MY STORY'}/>
             </div>
             <div className={style.descriptionBlock}>
                 <div className={style.description}>

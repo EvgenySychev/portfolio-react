@@ -14,14 +14,17 @@
 
   .hTitle {
     @include text($fontMain, 4.2vw, $textColor);
-    width: 75%;
-    font-weight: 800;
+    margin: 40px 0 0 -14vw;
+    padding: 4.2vw;
     line-height: 1.4;
+    font-weight: 800;
     background: #373b40;
     word-break: break-word;
-    margin: 40px 0 0 -33vh;
-    padding: 4.2vw;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
     border-radius: 264px;
+    -moz-border-radius: 264px;
+    -webkit-border-radius: 264px;
   }
 
   .startedContent {

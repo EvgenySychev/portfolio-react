@@ -1,4 +1,5 @@
 @import "../../styles/sass/variables";
+@import "../../styles/sass/mixins";
 
 .title {
     font-family: 'Poppins', sans-serif;
@@ -8,4 +9,13 @@
     color: $textColor;
     font-weight: 800;
     margin: 0;
+}
+.subTitle {
+    @include text($fontMain, 14px, $primaryColor);
+    font-weight: 600;
+    text-align: center;
+    background: $bgColor;
+    height: 50px;
+    display: block;
+    line-height: 26px;
 }

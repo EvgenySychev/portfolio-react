@@ -9,16 +9,6 @@
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: nowrap;
-    .storyTitle {
-
-      @include text($fontMain, 14px, $primaryColor);
-      font-weight: 600;
-      text-align: center;
-      background: $bgColor;
-      height: 50px;
-      display: block;
-      line-height: 26px;
-    }
     .descriptionBlock {
       border: 1px solid;
       width: 100%;

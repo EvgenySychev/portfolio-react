@@ -38,7 +38,8 @@ export function Skills() {
     return (
         <div className={style.skillsBlock}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
-                <Title title ={'Skills'}/>
+                <Title title ={'Skills'}
+                       subTitle={'DEVELOPING ON'}/>
                 <ul className={style.skills}>
                     <li> <Skill title = {"REACT"} style = {react} /></li>
                     <li><Skill title = {"REDUX"} style = {redux}/> </li>

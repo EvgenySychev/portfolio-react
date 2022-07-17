@@ -7,14 +7,6 @@
     .block {
         display: flex;
         flex-direction: column;
-        .invitation {
-            @include text($fontMain,14px,$primaryColor);
-            text-align: center;
-            font-size: 14px;
-            line-height: 1.2;
-            font-weight: 600;
-            text-transform: uppercase;
-        }
         .contactForm {
             width: 50%;
             height: 50%;
@@ -27,6 +19,10 @@
             .submitBtn {
                 padding: 10px 20px;
                 background-color: #d4ffc0;
+                cursor: pointer;
+                &:hover{
+                    background-color: $primaryColor;
+                }
             }
             @media screen and (max-width: 560px) {
                     width: 100%;

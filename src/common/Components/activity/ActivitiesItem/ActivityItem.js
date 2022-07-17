@@ -1,6 +1,6 @@
-import style from "./Activity.module.scss"
+import style from "./ActivityItem.module.scss"
 
-export const Activity = (props) => {
+export const ActivityItem = (props) => {
     return (
         <div>
             <div className={style.activityBlock}>

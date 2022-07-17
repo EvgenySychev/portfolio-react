@@ -4,7 +4,7 @@ export const NavigateBtn = () => {
     return (
         <div className={style.navs}>
             <span className={style.prevBtn}>{'<'}</span>
-            <span className={style.nextBtn}>{'>'}</span>
+            <span className={style.prevBtn}>{'>'}</span>
         </div>
     )
 }

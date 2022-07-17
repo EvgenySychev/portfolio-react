@@ -23,7 +23,8 @@ export function Works() {
     return (
         <div className={style.worksBlock}>
             <div className={`${styleContainer.container} ${style.worksContainer}`}>
-                <Title title ={'Portfolio'}/>
+                <Title title={'Portfolio'}
+                       subTitle={'LATEST WORKS'}/>
                 <div className={style.works}>
                     <Work title={"Social network"}
                           style={socialNetwork}

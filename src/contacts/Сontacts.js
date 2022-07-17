@@ -8,10 +8,8 @@ export function Contacts() {
         <div className={style.contacts}>
             <div className={`${styleContainer.container} ${style.block}`}>
                 <div>
-                    <Title title={'Contacts'}/>
-                    <div className={style.invitation}>
-                        <span>LET'S TALK</span>
-                    </div>
+                    <Title title={'Contacts'}
+                           subTitle={'LET\'S TALK'}/>
                 </div>
                 <form className={style.contactForm}>
                     <input type={"text"}/>
