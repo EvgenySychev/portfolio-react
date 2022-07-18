@@ -1,5 +1,5 @@
-@import "../common/styles/sass/mixins";
-@import "../common/styles/sass/variables";
+@import "../../common/styles/sass/mixins";
+@import "../../common/styles/sass/variables";
 .topMenu {
     margin-right: 50px;
     float: right;
@@ -16,10 +16,9 @@
             vertical-align: top;
             position: relative;
             a {
-                @include text($fontMain, 14px, $primaryColor);
+                @include text($fontMain, 12px, $textColor);
                 text-transform: uppercase;
-                font-weight: 600;
-
+                font-weight: 800;
                 span {
                     position: relative;
                     top: -1px;

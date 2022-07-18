@@ -15,6 +15,7 @@
 
     .description {
       @include text($fontMain, 14px, $textColor);
+      font-weight: 400;
       line-height: 1.8;
       word-wrap: break-word;
       padding: 0;
